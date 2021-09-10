@@ -21,13 +21,16 @@ p{
 }
 
 img{
-    display: inline;
     text-align: center;
-    /* All images are 550px wide  (the image should not be warped or stretched) */
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div{ 
-    /* All divs must be at least 150px tall (but will automatically be taller if needed)*/
+    min-height: 150px;
+    display: block;
     padding: 25px;
 }
 
