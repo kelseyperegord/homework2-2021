@@ -1,0 +1,59 @@
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family:"Times New Roman", sans-serif;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    font-size: 32px;
+    text-shadow: 4px 4px 2px #808080;
+}
+
+p{
+    font-size: 24px;
+    padding: 15px 0px 0px 0px;
+}
+
+img{
+    display: inline;
+    text-align: center;
+    /* All images are 550px wide  (the image should not be warped or stretched) */
+}
+
+div{ 
+    /* All divs must be at least 150px tall (but will automatically be taller if needed)*/
+    padding: 25px;
+}
+
+#red{
+    background-color:#FF0000;
+    text-align: right;
+}
+
+#blue{
+    background-color: #0000FF;
+    text-align: left;
+}
+
+#yellow{
+    background-color: #FFFF00;
+    text-align: right;
+    color: #000000;
+    text-shadow: 4px 4px 2px #C7E2C7;
+}
+
+#green{
+    background-color: #008000;
+    text-align: left;
+}
+
+footer p{
+    text-align: center;
+    padding: 0px 10px 10px 0px;
+}
