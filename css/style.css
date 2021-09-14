@@ -47,6 +47,9 @@ div{
 #yellow{
     background-color: #FFFF00;
     text-align: right;
+}
+
+div#yellow h2 {
     color: #000000;
     text-shadow: 4px 4px 2px #C7E2C7;
 }
